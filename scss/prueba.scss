@@ -1,0 +1,74 @@
+@import "../scss/variables/variables.scss";
+
+@mixin fuentes {
+    font-family: $tipo-de-letra;
+    color: white;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    @include fuentes;
+}
+body {
+    background: black
+}
+.cervezas {
+    margin-top: 5px;
+}
+footer {
+    margin-top: 20px;
+    color: white;
+}
+.footer-1 {
+    text-align: center;
+}
+.contenedor-redes{
+    display: flex;
+    justify-content: center;
+}
+.imagen-footer{
+    width: 50px;
+}
+.footer-2 {
+    margin-top: 10px;
+    text-align: center;
+}
+.casillero-main{
+    background-image: url(../images/fondito.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.formulario {
+    color: white;
+}
+.casillero-form {
+    width: 100%;
+    margin-top: 40px;
+}
+.formulario {
+    border: none;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.events {
+    color: white;
+    text-align: center;
+}
+
+.mapa {
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+    background-color: grey;
+}
+.merch {
+    color: white;
+    text-align: center;
+}
